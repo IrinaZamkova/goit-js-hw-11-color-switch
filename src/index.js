@@ -15,7 +15,7 @@ const colors = [
   '#795548',
 ];
 
-const colorSwich = {
+const colorSwitch = {
   intervalId: null,
   isActive: false,
 
@@ -37,5 +37,5 @@ const colorSwich = {
   },
 };
 
-refs.startRef.addEventListener(`click`, colorSwich.start.bind(colorSwich));
-refs.stopRef.addEventListener(`click`, colorSwich.stop.bind(colorSwich));
+refs.startRef.addEventListener(`click`, colorSwitch.start.bind(colorSwitch));
+refs.stopRef.addEventListener(`click`, colorSwitch.stop.bind(colorSwitch));
